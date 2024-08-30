@@ -130,9 +130,9 @@ body {
 }
 
 .home .foto img {
-  width: auto !important; 
-  max-width: 100px !important;/* Limit the maximum width */
-  height: auto !important; /* Maintain aspect ratio */
+   width: auto !important; 
+  max-width: 200px !important; 
+  height: auto !important; 
 }
 
 .info {
