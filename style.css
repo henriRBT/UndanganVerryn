@@ -129,8 +129,9 @@ body {
   margin-bottom: 4rem;
 }
 
-#home img {
-  width: 250px;
+.home img {
+  max-width: 50%; /* Mengatur gambar menjadi 50% dari elemen parent */
+  height: auto; /* Menjaga proporsi gambar */
 }
 
 .info {
@@ -350,6 +351,11 @@ footer li {
   .sticky-top {
     overflow: hidden;
   }
+
+  .timeline li .timeline-img {
+    width: 140px;
+    height: 140px;
+  }
 }
 
 /* HP */
@@ -361,6 +367,11 @@ footer li {
     padding: 45px;
     margin: 3px;
   }
+  .home img {
+    max-width: 40%; /* Mengatur gambar menjadi 50% dari elemen parent */
+    height: auto; /* Menjaga proporsi gambar */
+  }
+
   .info {
     background-size: cover;
     background-position: center;
@@ -373,9 +384,6 @@ footer li {
     transform: none;
   }
 
-  #home img {
-    width: 50px;
-  }
   .dresscode-text {
     margin: 0 15px;
   }
@@ -390,9 +398,11 @@ footer li {
     padding: 40px;
     margin: 2px;
   }
-  #home img {
-    width: 50px;
+  .home img {
+    max-width: 30%; /* Mengatur gambar menjadi 50% dari elemen parent */
+    height: auto; /* Menjaga proporsi gambar */
   }
+
   [data-aos] {
     transition: none; /* Menonaktifkan animasi untuk layar kecil */
     opacity: 1;
