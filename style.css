@@ -367,10 +367,6 @@ footer li {
     padding: 45px;
     margin: 3px;
   }
-  .home img {
-    width: 80px;
-  }
-
   .info {
     background-size: cover;
     background-position: center;
@@ -396,9 +392,6 @@ footer li {
   .simply-countdown > .simply-section {
     padding: 40px;
     margin: 2px;
-  }
-  .home img {
-    width: 80px;
   }
 
   [data-aos] {
