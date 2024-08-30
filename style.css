@@ -130,7 +130,7 @@ body {
 }
 
 .home img {
-  max-width: 50%; /* Mengatur gambar menjadi 50% dari elemen parent */
+  max-width: 20%; /* Mengatur gambar menjadi 50% dari elemen parent */
   height: auto; /* Menjaga proporsi gambar */
 }
 
@@ -368,7 +368,7 @@ footer li {
     margin: 3px;
   }
   .home img {
-    max-width: 40%; /* Mengatur gambar menjadi 50% dari elemen parent */
+    max-width: 50%; /* Mengatur gambar menjadi 50% dari elemen parent */
     height: auto; /* Menjaga proporsi gambar */
   }
 
@@ -399,7 +399,7 @@ footer li {
     margin: 2px;
   }
   .home img {
-    max-width: 40%; /* Mengatur gambar menjadi 50% dari elemen parent */
+    max-width: 50%; /* Mengatur gambar menjadi 50% dari elemen parent */
     height: auto; /* Menjaga proporsi gambar */
   }
 
