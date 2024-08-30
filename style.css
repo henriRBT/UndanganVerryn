@@ -129,7 +129,7 @@ body {
   margin-bottom: 4rem;
 }
 
-.home .foto img {
+.home .img-responsive {
   max-width: 30%; /* Mengatur gambar menjadi 50% dari elemen parent */
   height: auto; /* Menjaga proporsi gambar */
 }
@@ -312,7 +312,7 @@ footer li {
   .simply-countdown > .simply-section {
     padding: 70px;
   }
-  .home .foto img {
+  .home .img-responsive {
     max-width: 30%; /* Mengatur gambar menjadi 50% dari elemen parent */
     height: auto; /* Menjaga proporsi gambar */
   }
