@@ -312,10 +312,6 @@ footer li {
   .simply-countdown > .simply-section {
     padding: 70px;
   }
-  .home .img-responsive {
-    max-width: 30%; /* Mengatur gambar menjadi 50% dari elemen parent */
-    height: auto; /* Menjaga proporsi gambar */
-  }
 
   .dresscode {
     padding: 24px 0;
@@ -371,6 +367,11 @@ footer li {
     padding: 45px;
     margin: 3px;
   }
+  .home .img-responsive {
+    max-width: 40%; /* Mengatur gambar menjadi 50% dari elemen parent */
+    height: auto; /* Menjaga proporsi gambar */
+  }
+
   .info {
     background-size: cover;
     background-position: center;
@@ -397,6 +398,11 @@ footer li {
     padding: 40px;
     margin: 2px;
   }
+  .home .img-responsive {
+    max-width: 30%; /* Mengatur gambar menjadi 50% dari elemen parent */
+    height: auto; /* Menjaga proporsi gambar */
+  }
+
   [data-aos] {
     transition: none; /* Menonaktifkan animasi untuk layar kecil */
     opacity: 1;
