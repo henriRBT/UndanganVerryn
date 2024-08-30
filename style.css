@@ -130,7 +130,8 @@ body {
 }
 
 .home .foto img {
-  max-width: 30%; /* Mengatur gambar menjadi 50% dari elemen parent */
+  width: 50%; /* Set a fixed width to ensure consistency across devices */
+  max-width: 200px; /* Set a maximum width to prevent it from getting too large */
   height: auto; /* Menjaga proporsi gambar */
 }
 
@@ -379,7 +380,6 @@ footer li {
   }
   .home .foto img {
     max-width: 40%; /* Mengatur gambar menjadi 50% dari elemen parent */
-    height: auto; /* Menjaga proporsi gambar */
   }
   .info {
     background-size: cover;
@@ -398,19 +398,18 @@ footer li {
   }
 }
 
-@media (max-width: 403px) {
+@media (max-width: 300px) {
   html {
     font-size: 60%;
-  }
-
-  .home .foto img {
-    max-width: 38%;
-    height: auto; /* Menjaga proporsi gambar */
   }
 
   .simply-countdown > .simply-section {
     padding: 40px;
     margin: 2px;
+  }
+
+  .home .foto img {
+    max-width: 38%;
   }
 
   [data-aos] {
