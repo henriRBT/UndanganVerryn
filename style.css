@@ -374,7 +374,7 @@ footer li {
   }
 
   #home img {
-    width: 100px;
+    width: 50px;
   }
   .dresscode-text {
     margin: 0 15px;
@@ -391,7 +391,7 @@ footer li {
     margin: 2px;
   }
   #home img {
-    width: 100px;
+    width: 50px;
   }
   [data-aos] {
     transition: none; /* Menonaktifkan animasi untuk layar kecil */
