@@ -129,8 +129,9 @@ body {
   margin-bottom: 4rem;
 }
 
-.home .foto {
-  width: 100%;
+.home .foto img {
+  max-width: 30%; /* Mengatur gambar menjadi 50% dari elemen parent */
+  height: auto; /* Menjaga proporsi gambar */
 }
 
 .info {
@@ -311,6 +312,11 @@ footer li {
   .simply-countdown > .simply-section {
     padding: 70px;
   }
+  .home .foto img {
+    max-width: 50%; /* Mengatur gambar menjadi 50% dari elemen parent */
+    height: auto; /* Menjaga proporsi gambar */
+  }
+
   .dresscode {
     padding: 24px 0;
   }
@@ -365,6 +371,12 @@ footer li {
     padding: 45px;
     margin: 3px;
   }
+  .info {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Menyesuaikan tinggi minimum agar gambar tetap terlihat penuh */
+  }
+
   [data-aos] {
     transition: none; /* Menonaktifkan animasi untuk layar kecil */
     opacity: 1;
@@ -374,13 +386,13 @@ footer li {
   .dresscode-text {
     margin: 0 15px;
   }
-
 }
 
 @media (max-width: 403px) {
   html {
     font-size: 60%;
   }
+
   .simply-countdown > .simply-section {
     padding: 40px;
     margin: 2px;
