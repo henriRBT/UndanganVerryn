@@ -129,9 +129,8 @@ body {
   margin-bottom: 4rem;
 }
 
-.home img {
-  width: 250px; /* Mengatur gambar menjadi 50% dari elemen parent */
-  height: auto; /* Menjaga proporsi gambar */
+#home img {
+  width: 250px;
 }
 
 .info {
@@ -374,6 +373,9 @@ footer li {
     transform: none;
   }
 
+  #home img {
+    width: 100px;
+  }
   .dresscode-text {
     margin: 0 15px;
   }
@@ -388,7 +390,9 @@ footer li {
     padding: 40px;
     margin: 2px;
   }
-
+  #home img {
+    width: 100px;
+  }
   [data-aos] {
     transition: none; /* Menonaktifkan animasi untuk layar kecil */
     opacity: 1;
