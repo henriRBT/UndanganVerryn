@@ -315,8 +315,7 @@ footer li {
   }
 
   .home .foto img {
-    max-width: 30%; /* Mengatur gambar menjadi 50% dari elemen parent */
-    height: auto; /* Menjaga proporsi gambar */
+    max-width: 150px;
   }
 
   .dresscode {
@@ -350,8 +349,7 @@ footer li {
     margin: 5px;
   }
   .home .foto img {
-    max-width: 50%; /* Mengatur gambar menjadi 50% dari elemen parent */
-    height: auto; /* Menjaga proporsi gambar */
+    max-width: 120px;
   }
 
   .mynavbar .nav-link {
@@ -379,7 +377,7 @@ footer li {
     margin: 3px;
   }
   .home .foto img {
-    max-width: 40%; /* Mengatur gambar menjadi 50% dari elemen parent */
+    max-width: 100px; 
   }
   .info {
     background-size: cover;
@@ -409,7 +407,7 @@ footer li {
   }
 
   .home .foto img {
-    max-width: 38%;
+    max-width: 80px; /* Further reduce for very small screens */
   }
 
   [data-aos] {
