@@ -352,6 +352,11 @@ footer li {
     overflow: hidden;
   }
 
+  .home img {
+    max-width: 50%; /* Mengatur gambar menjadi 50% dari elemen parent */
+    height: auto; /* Menjaga proporsi gambar */
+  }
+
   .timeline li .timeline-img {
     width: 140px;
     height: 140px;
