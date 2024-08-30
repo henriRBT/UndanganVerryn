@@ -351,11 +351,6 @@ footer li {
   .sticky-top {
     overflow: hidden;
   }
-
-  .timeline li .timeline-img {
-    width: 140px;
-    height: 140px;
-  }
 }
 
 /* HP */
