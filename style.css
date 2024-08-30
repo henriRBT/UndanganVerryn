@@ -312,10 +312,6 @@ footer li {
   .simply-countdown > .simply-section {
     padding: 70px;
   }
-  .home .foto img {
-    max-width: 50%; /* Mengatur gambar menjadi 50% dari elemen parent */
-    height: auto; /* Menjaga proporsi gambar */
-  }
 
   .dresscode {
     padding: 24px 0;
@@ -347,6 +343,11 @@ footer li {
     padding: 60px;
     margin: 5px;
   }
+  .home .foto img {
+    max-width: 50%; /* Mengatur gambar menjadi 50% dari elemen parent */
+    height: auto; /* Menjaga proporsi gambar */
+  }
+
   .mynavbar .nav-link {
     font-size: 2rem;
     text-align: center;
@@ -371,6 +372,10 @@ footer li {
     padding: 45px;
     margin: 3px;
   }
+  .home .foto img {
+    max-width: 50%; /* Mengatur gambar menjadi 50% dari elemen parent */
+    height: auto; /* Menjaga proporsi gambar */
+  }
   .info {
     background-size: cover;
     background-position: center;
@@ -392,7 +397,10 @@ footer li {
   html {
     font-size: 60%;
   }
-
+  .home .foto img {
+    max-width: 50%; /* Mengatur gambar menjadi 50% dari elemen parent */
+    height: auto; /* Menjaga proporsi gambar */
+  }
   .simply-countdown > .simply-section {
     padding: 40px;
     margin: 2px;
